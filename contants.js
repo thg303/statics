@@ -1,1 +1,1 @@
-{"API_URL": 'https://bimo-api.herokuapp.com/api/v1/'}
+https://bimo-api.herokuapp.com/api/v1/
