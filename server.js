@@ -8,6 +8,7 @@ const stringText = CryptoJS.AES.encrypt(JSON.stringify(data), 'H.y{%w421C[AgsU;7
 
 console.log(stringText.ciphertext)
 
-app.get('/', (req, res) => res.send(stringText.ciphertext))
+// app.get('/', (req, res) => res.send(stringText.ciphertext))
+app.get('/', (req, res) => res.send('GAME OVER!'))
 
-app.listen(8080, () => console.log('Example app listening on port 80!'))
+app.listen(80, () => console.log('Example app listening on port 80!'))
